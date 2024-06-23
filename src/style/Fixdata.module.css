@@ -1,0 +1,47 @@
+button {
+    width: 2rem;
+    height: 2rem;
+    border-right: 25px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: black;
+    cursor: pointer;
+}
+
+svg {
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 81rem;
+    width: 99rem;
+    margin-left: 7rem;
+    height: 11rem;
+    background-image: url("/src/img/pattern-bg-desktop.png");
+
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
+input {
+    padding-left: .5rem;
+    height: 2rem;
+    width: 16rem;
+    border: none;
+    border-radius: 10px 0 0 10px;
+
+}
